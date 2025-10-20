@@ -1,0 +1,13 @@
+.myButton {
+    width:auto;
+    height: auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #4fff8f;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
