@@ -8,7 +8,7 @@ const arr = [
 ];
 
 function maxglass(arr) {
-    let maxsum = 0;
+    let maxsum = -Infintiy; //-Infinity is good in case you get negative numbers since you dont start at 0
     for (let i = 0; i <= arr.length-3;i++) {
         for (let j = 0; j <= arr[i].length - 3; j++) {
         const sum = 
